@@ -1,0 +1,125 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  margin: 3px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+  color: white;
+  margin-left: 1%;
+
+}
+h2 {
+  font-size: 34px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin-left: 1%;
+
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  line-height: 28px;
+  margin-left: 1%;
+
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+    color: blue;
+    font-size: 14px;
+
+}
+
+h5 {
+  font-size: 38px;
+  font-weight: 30;
+  font-family: 'Lily Script One', cursive;
+  color: white;
+  line-height: 28px;
+  margin-left: 1%;
+
+}
+
+p {
+  font-family: 'Sunflower', sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  font-family: "Roboto Slab", sans-serif;
+
+}
+
+section {
+  margin-bottom: 80px;
+  margin-top: 80px
+}
+
+/* Add styling to recreate the layout on the screen */
+
+section::after {
+}
+
+#largeContent {
+  text-align: center;
+  margin-left: 1%;
+}
+
+#bordering {
+  border-image: "kishani.png" 30 round;
+  border-color: red;
+}
+
+#left {
+  background-color: teal;
+  width: 32%;
+  float: left;
+  height: 340px;
+  margin-left: 1%;
+  padding: 3%;
+}
+
+#middle {
+  background-color: darkblue;
+  width: 32%;
+  float: left;
+  height: 340px;
+  margin-left: 1%;
+  padding: 3%;
+}
+
+#right {
+  background-color: hotpink;
+  width: 32%;
+  float: left;
+  height: 340px;
+  margin-left: 1%;
+  padding: 3%;
+}
+
+#footer {
+  text-align: center;
+  background-color: purple;
+  width: 98.5%;
+  float: left;
+  height: 40px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 5%;
+}
